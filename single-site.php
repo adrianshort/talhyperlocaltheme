@@ -21,16 +21,11 @@ get_header(); ?>
 			 * use this in a child theme, then include a file called called content-___.php
 			 * (where ___ is the post format) and that will be used instead.
 			 */
-			// get_template_part( 'content', get_post_format() );
+			get_template_part( 'content', get_post_format() );
 			
 			
-			echo "<h1>" . get_the_title() . "</h1>";
 			talhyperlocal_map_shortcode( get_the_ID() );
-			the_content();
-			the_meta();
 			$meta = get_post_custom();
-// 			print_r($meta);
-			
 			$url = $meta['url'][0];
 			?>
 			<p><a href="<?php echo $url ?>">Website</a></p>
