@@ -18,12 +18,12 @@
   <div class="entry-content">
     <?php
       /* translators: %s: Name of current post */
+      talhyperlocal_map_shortcode( get_the_ID() );
       the_content( sprintf(
         __( 'Continue reading %s', 'twentyfifteen' ),
         the_title( '<span class="screen-reader-text">', '</span>', false )
       ) );
 
-      talhyperlocal_map_shortcode( get_the_ID() );
       $meta = get_post_custom();
       $url = $meta['url'][0];
       ?>
