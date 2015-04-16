@@ -22,8 +22,7 @@
 				 */
 				do_action( 'twentyfifteen_credits' );
 			?>
-			Created in <a href="https://wordpress.org/">WordPress</a>
-			by <a href="https://adrianshort.org/">Adrian Short</a>
+			Made by <a href="https://adrianshort.org/">Adrian Short</a>
 			for <a href="http://talkaboutlocal.org/">Talk About Local</a>
 			funded by the <a href="http://www.carnegieuktrust.org.uk/">Carnegie UK Trust</a>
 		</div><!-- .site-info -->
