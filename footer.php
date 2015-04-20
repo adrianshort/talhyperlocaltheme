@@ -22,9 +22,7 @@
 				 */
 				do_action( 'twentyfifteen_credits' );
 			?>
-			Made by <a href="https://adrianshort.org/">Adrian Short</a>
-			for <a href="http://talkaboutlocal.org/">Talk About Local</a>
-			funded by the <a href="http://www.carnegieuktrust.org.uk/">Carnegie UK Trust.</a>
+			<a href="/credits/">Credits</a>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
 
