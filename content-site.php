@@ -25,8 +25,9 @@
       ) );
 
       $meta = get_post_custom();
+      $url = $meta['url'][0];
       ?>
-      <p>Website: <a href="<?php echo $url ?>"><?php echo $meta['url'][0] ?></a></p>
+      <p>Website: <a href="<?php echo $url ?>"><?php echo $url ?></a></p>
       <p>Area covered: <?php echo $meta['area_covered'][0] ?></p>
       <p><?php the_taxonomies( 'before=<ul>&after=</ul>' ) ?></p>
 
