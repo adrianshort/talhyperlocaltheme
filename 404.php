@@ -18,7 +18,7 @@ get_header(); ?>
 				</header><!-- .page-header -->
 
 				<div class="page-content">			
-<img class="aligncenter size-full wp-image-1527" src="http://localweblist.net/wp-content/uploads/2015/04/beaker-404-600x450.png" alt="beaker-404-600x450" width="600" height="450" />
+<img class="aligncenter size-full wp-image-1527" src="/wp-content/uploads/2015/04/beaker-404-600x450.png" alt="Meep! Meep! Sorry! Try a search to find what you are looking for." width="600" height="450" />
 					<p><?php _e( 'It looks like nothing was found at this location. Maybe try a search?', 'twentyfifteen' ); ?></p>
 					<?php get_search_form(); ?>
 				</div><!-- .page-content -->
