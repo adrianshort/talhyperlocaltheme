@@ -22,7 +22,7 @@
 				 */
 				do_action( 'twentyfifteen_credits' );
 			?>
-			<a href="/credits/">Credits</a> | <a href="/get-the-data/">Get the data!</a>
+			<a href="/credits/">Credits</a> | <a href="/get-the-data/">Get the data</a>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
 
