@@ -11,3 +11,61 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  tal-hyperlocal
 */
+
+.footer-navigation {
+	clear: both;
+	margin: 0 auto;
+	max-width: 1080px;
+	min-height: 45px;
+	position: relative;
+}
+
+ul.footer-nav-menu,
+div.footer-nav-menu > ul {
+	margin: 0;
+	padding: 0 40px 0 0;
+}
+
+.footer-nav-menu li {
+	display: inline-block;
+	position: relative;
+}
+
+.footer-nav-menu li a {
+	color: #141412;
+	display: block;
+	font-size: 15px;
+	line-height: 1;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+
+.footer-nav-menu li:hover > a,
+.footer-nav-menu li a:hover,
+.footer-nav-menu li:focus > a,
+.footer-nav-menu li a:focus {
+	background-color: rgba(20,20,20,0.8);
+	color: #fff;
+}
+
+
+
+.footer-nav-menu .current_page_item > a
+{
+	color: #000000;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.menu-toggle {
+	display: none;
+}
+
+/* Navbar */
+.navbar {
+	background-color:rgba(240,240,240,0.8) ;
+	margin: 0 auto 20px auto;
+	max-width: 1600px;
+	width: 100%;
+	border-bottom:solid 2px rgba(200,200,200,0.8);
+	}

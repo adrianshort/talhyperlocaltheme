@@ -13,17 +13,14 @@
 	</div><!-- .site-content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<?php
-				/**
-				 * Fires before the Twenty Fifteen footer text for footer customization.
-				 *
-				 * @since Twenty Fifteen 1.0
-				 */
-				do_action( 'twentyfifteen_credits' );
-			?>
-			<a href="/credits/">Credits</a> | <a href="/get-the-data/">Get the data</a>
-		</div><!-- .site-info -->
+	
+	<div id="navbar" class="navbar">
+				<nav id="site-navigation" class="navigation footer-navigation" role="navigation">										
+					<?php wp_nav_menu( array( 'theme_location' => 'footer-menu', 'menu_class' => 'footer-nav-menu', 'depth' =>'-1' ) ); ?>					
+				</nav><!-- #site-navigation -->
+			</div><!-- #navbar -->
+			
+
 	</footer><!-- .site-footer -->
 
 </div><!-- .site -->
